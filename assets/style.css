@@ -49,8 +49,8 @@ nav ul li a{
     border-radius: 3px;
     
 }
-
- a.active, a :hover{
+/* NOTE:If there is spacing between a :, there will not be a color transition */
+ a.active, a:hover{
      background: #3eb4eb;
-     transition: 5s;
+     transition: .5s;
  }
