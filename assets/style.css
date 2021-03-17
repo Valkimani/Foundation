@@ -54,3 +54,15 @@ nav ul li a{
      background: #3eb4eb;
      transition: .5s;
  }
+/* hamburger icon styling */
+ .checkbtn {
+     font-size: 30px;
+     color: white;
+     float: right;
+     line-height: 80px;
+     margin-right: 40px;
+     cursor: pointer;
+ }
+ #check{
+     display: none;
+ }
