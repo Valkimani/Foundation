@@ -1,3 +1,4 @@
+/* Adding a universal selector with the *. The styling in the selector is applied to all the code in the page */
 *{
     padding: 0;
     margin: 0;
@@ -89,6 +90,30 @@ ul {
     background: #2c3e50;
     top: 80px;
     left: 0;
+    left: -100%;
     text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+nav ul li a {
+    font-size: 20px;
+}
+.active,a:hover{
+    background: none;
+    color: #0082e6;
+}
+#check:checked ~ ul {
+    left: 0;
 }
  }
+section .img{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100px;
+}
+  
