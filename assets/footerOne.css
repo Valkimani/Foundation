@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    background-color: #212329;
+    /* spacing will help with the mobile view */
+    padding: 4rem;
+}
+.footer{
+    
+    width: 80%;
+    height: 40vh;
+    background-color: #212329;
+    /* font color */
+    color: white;
+   /* spread thing horizontally */
+   display: flex;
+   justify-content: center;
+}
